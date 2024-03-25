@@ -1,10 +1,10 @@
     $(document).ready(function(){
-        $('.menu-hamburguer').click(function() {
-            $('nav').slideToggle();
-            $()
-        })
-
+        
         $('nav a').click(function() {
+            $('nav').slideToggle();
+        })
+        
+        $('.menu-hamburguer').click(function() {
             $('nav').slideToggle();
         })
 

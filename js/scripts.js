@@ -26,7 +26,7 @@
         },
         messages: {
             name: {
-                minlength: 'Por favor, digite um número válido!',
+                minlength: 'Por favor, digite um nome válido!',
                 required: 'Este campo é obrigatório!'
             },
             phone: {

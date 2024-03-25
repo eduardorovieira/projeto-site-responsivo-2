@@ -422,6 +422,10 @@ label.error {
         text-align: center;
         padding-bottom: 1em;
     }
+
+    footer img {
+        width: 2em;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -462,5 +466,9 @@ label.error {
 
     .texto-sobre {
         width: 90%;
+    }
+
+    footer img {
+        width: 2em;
     }
 }

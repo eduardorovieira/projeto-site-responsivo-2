@@ -61,8 +61,7 @@ header ul {
     list-style: none;
     display: flex;
     column-gap: 1.5em;
-    padding-top: 4%;
-    
+    padding-top: 2%;
     
 }
 
@@ -81,7 +80,20 @@ nav ul li a:focus {
 }
 
 .menu-hamburguer {
-    display: none;
+    display: block;
+}
+
+.menu-hamburguer:hover {
+    cursor: pointer;
+}
+
+nav{
+    position: fixed;
+    top: 4em;
+    background-color: #353d41;
+    width: 100%;
+    left: 0;
+    padding: 0;
 }
 
 .bar {

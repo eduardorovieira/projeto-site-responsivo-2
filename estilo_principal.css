@@ -338,18 +338,15 @@ label.error {
         margin-top: 1.2em;
     }
 
-    .hamburguer--open .bar:nth-child(1) {
-        transform: translateY(7px) rotate(45deg);
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 4%;
+        height: 5em;
+        position: sticky;
+        z-index: 0;
     }
-
-    .hamburguer--open .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburguer--open .bar:nth-child(3) {
-        transform: translateY(-7px) rotate(-45deg);
-    }
-
     .menu-hamburguer {
         display: block;
         

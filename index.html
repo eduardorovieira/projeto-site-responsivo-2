@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculdade Criativa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo_principal.css">
+</head>
+<body>
+    <header class="fixed-top" id="home">
+        <div class="home">
+            <a id="marca" href="#"><h1>Faculdade Criativa</h1></a>
+            <nav>
+                <ul>
+                    <li class="nav-item"><a id="about-menu" href="#sobre">Sobre a faculdade</a></li>
+                    <li class="nav-item"><a id="cursos-menu" href="#cursos">Cursos</a></li>
+                    <li class="nav-item"><a id="contact-menu" href="#contato">Contato</a></li>
+                    <li class="nav-item"><a id="subscribe-menu" href="#">Inscreva-se</a></li>
+                </ul>
+            </nav class="nav">
+            <div class="menu-hamburguer">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid topo">
+            <div id="mainSlider" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active c-item">
+                        <img src="/imagens/campus (3).jpg" class="d-block w-100" alt="Campus">
+                        <div class="carousel-caption d-block d-md-block top-0">
+                            <h2>Invista em conhecimento</h2>
+                            <p>Visite nosso campus.</p>
+                            <a href="#" class="main-btn">Agende sua visita</a>
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/livros.jpg" class="d-block w-100" alt="Livros">
+                    <div class="carousel-caption d-block d-md-block top-0">
+                        <h2>Jornada acadêmica personalizada</h2>
+                        <p>Fale com um de nossos coordenadores.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/mesa.jpg" class="d-block w-100" alt="Mesa">
+                    <div class="carousel-caption d-block d-md-block top-0">
+                        <h2>Método de ensino assertivo</h2>
+                        <p>Sabemos que o seu tempo é valioso.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" class="d-block" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" class="d-flex type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>    
+        </div>
+    </main>
+    <section class="container-fluid">
+        <div id="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title" id="sobre">Sobre a Faculdade</h3>
+                        <P></P>
+                    </div>
+                    <div class="col-md-6 imagem-sobre">
+                        <img class="img-fluid" src="/imagens/faculdade-sobre.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 texto-sobre">
+                        <h4 class="about-title">Uma faculdade que pensa no futuro</h4>
+                        <p><strong> Fundada em 1943</strong>, a <strong>Faculdade Criativa</strong> é uma das mais tradicionais e prestigiadas instituições de ensino superior do Brasil.</p>                        
+                        <p> Com mais de 70 anos de história, a <strong>Faculdade Criativa</strong> se destaca pela qualidade de seus cursos, pela inovação em suas metodologias de ensino e pela formação de profissionais completos e preparados para o mercado de trabalho.</p>
+                        <p><strong class="check-list">Nossos diferênciais:</strong></p>
+                        <ul id="about-list">
+                            <li><i class="fas fa-check"></i>Corpo docente altamente qualificado</li>
+                            <li><i class="fas fa-check"></i>Metodologias de ensino inovadoras</li>
+                            <li><i class="fas fa-check"></i>Infraestrutura moderna</li>
+                            <li><i class="fas fa-check"></i>Localização privilegiada</li>
+                            <li><i class="fas fa-check"></i>Tradição e reconhecimento</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid" id="cursos">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="main-title">Cursos por área de atuação</h3>
+                </div>
+                <div class="col-3 card">
+                    <svg class="card-img-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M4.375.375a2.5 2.5 0 0 0-2.5 2.5v15.25a2.5 2.5 0 0 0 2.5 2.5h5.187a.75.75 0 1 0 0-1.5H4.375a1 1 0 0 1-1-1v-1.75a1 1 0 0 1 1-1h5.687a.75.75 0 1 0 0-1.5H4.375c-.356 0-.694.074-1 .208V2.875a1 1 0 0 1 1-1h13.25v5.25a.75.75 0 0 0 1.5 0v-6a.75.75 0 0 0-.75-.75h-14Z"></path><path d="M12.375 12.087c0-1.396 1.005-2.712 2.456-2.712h8.044a.75.75 0 0 1 .75.75v12.75a.75.75 0 0 1-.75.75h-7.5a3 3 0 0 1-3-3Zm9.75 5.538v-6.75h-7.294c-.433 0-.956.441-.956 1.212v5.939a2.989 2.989 0 0 1 1.5-.401Zm-8.25 3a1.5 1.5 0 0 0 1.5 1.5h6.75v-3h-6.75a1.5 1.5 0 0 0-1.5 1.5Z"></path></svg>
+                    <h4 class="card-title">Comunicação e Artes</h4>
+                    <p>Publicidade, Jornalismo, Cinema, Rádio e TV, Design, Moda, Artes Visuais</p>
+                    <a href="#" class="btn btn-primary">Saiba mais ></a>
+                </div>
+                <div class="col-3 card">
+                    <svg class="card-img-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M8.954 17H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h18.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.565-1.243c.964-1.105 1.598-2.382 1.769-3.757ZM21.5 3.75a.25.25 0 0 0-.25-.25H2.75a.25.25 0 0 0-.25.25v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25ZM13.537 17h-3.074c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.659-1.055-1.098-2.234-1.223-3.5Z"></path></svg>
+                    <h4 class="card-title">Engenharia e Tecnologia</h4>
+                    <p>Engenharia Civil, Engenharia Elétrica, Engenharia Mecânica, Engenharia de Produção, Ciência da Computação</p>
+                    <a href="#" class="btn btn-primary">Saiba mais ></a>
+                </div>
+                <div class="col-3 card">
+                    <svg class="card-img-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M2.5 2.75a.75.75 0 0 0-1.5 0v18.5c0 .414.336.75.75.75H20a.75.75 0 0 0 0-1.5H2.5V2.75Z"></path><path d="M22.28 7.78a.75.75 0 0 0-1.06-1.06l-5.72 5.72-3.72-3.72a.75.75 0 0 0-1.06 0l-6 6a.75.75 0 1 0 1.06 1.06l5.47-5.47 3.72 3.72a.75.75 0 0 0 1.06 0l6.25-6.25Z"></path></svg>
+                    <h4 class="card-title">Negócios e Administração</h4>
+                    <p>Administração de Empresas, Economia, Contabilidade, Marketing, Finanças</p>
+                    <a href="#" class="btn btn-primary">Saiba mais ></a>
+                </div>
+                <div class="col-3 card">
+                    <svg class="card-img-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0 16.709 16.709 0 0 1-.465-.252 31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408Z"></path></svg>
+                    <h4 class="card-title">Saúde e Bem-Estar</h4>
+                    <p>Enfermagem, Fisioterapia, Educação Física, Nutrição, Psicologia</p>
+                    <a href="#" class="btn btn-primary">Saiba mais ></a>
+                </div>
+                <div class="col-3 card">
+                    <svg class="card-img-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2.5a5.25 5.25 0 0 0-2.519 9.857 9.005 9.005 0 0 0-6.477 8.37.75.75 0 0 0 .727.773H20.27a.75.75 0 0 0 .727-.772 9.005 9.005 0 0 0-6.477-8.37A5.25 5.25 0 0 0 12 2.5Z"></path></svg>
+                    <h4 class="card-title">Humanidades e Ciências Sociais</h4>
+                    <p>Direito, História, Letras, Filosofia, Sociologia</p>
+                    <a href="#" class="btn btn-block btn-primary">Saiba mais ></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid contato" id="contato">
+        <div class="col-12">
+            <h3 class="main-title">Entre em contato</h3>
+        </div>
+        <div class="container container-flex" >
+            <div class="contato-texto">
+                <h5>Ficou com alguma dúvida?<br>Fale conosco!</h2>
+                <p>Preencha o formulário ou entre em contato através dos canais de atendimento:</p>
+                <label for="tel">Central de Relacionamento</label>
+                <p>123 456 7890</p>
+                <label for="email">E-mail</label>
+                <p>1234567890@teste.teste</p>
+            </div>
+            <form  class="card card-form" action="">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nome*</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Seu nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail*</label>
+                    <input type="text" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Telefone*</label>
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="(11) 90000-0000" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Digite sua mensagem*</label>
+                    <textarea class="form-control" id="mensagem" cols="30" rows="4"></textarea>
+                </div>
+                <button type="submit">Solicitar contato</button>
+            </form>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="container-footer">
+            <p> 2024 &copy; Faculdade Criativa - Todos os direitos reservados</p>
+            <ul class="container-flex">
+                <li>
+                    <a href="#">
+                        <img src="./icones/facebook.png" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/instagram.png" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/youtube.png" alt="youtube">
+                    </a>
+                </li>        
+            </ul>
+        </div>
+    </footer>  
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+</body>
+</html>
